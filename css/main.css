@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e98bff;
+  background: #ffffe2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3007,4 +3007,12 @@ body::-webkit-scrollbar-track {
     width: 100vw;
     background-position: center center;
   }
+}
+#mainPagePlayer {
+  position: fixed;
+  right: -10px;
+  top: -10px;
+  z-index: 100;
+  width: 310px;
+  height: 430px;
 }
